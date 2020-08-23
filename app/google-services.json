@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "52282453449",
+    "firebase_url": "https://hacktech19-ffa7f.firebaseio.com",
+    "project_id": "hacktech19-ffa7f",
+    "storage_bucket": "hacktech19-ffa7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52282453449:android:b27892bdc7d524c4788c18",
+        "android_client_info": {
+          "package_name": "com.hacktech19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52282453449-dgssgfn7fndr5uecqnr0tpbllh5dfkvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hacktech19",
+            "certificate_hash": "128096fdb82ce91ae527d265b1976339583f8aac"
+          }
+        },
+        {
+          "client_id": "52282453449-cfif2atv8o74ne0vk7h3e75nfhb84a1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hacktech19",
+            "certificate_hash": "14a818800cb4102a10ef4aad2a8368427ece4d64"
+          }
+        },
+        {
+          "client_id": "52282453449-v4q47uth5tm3q8vem6pdn44s4fpoftis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hacktech19",
+            "certificate_hash": "6d3e08498d131ca14c3623ff352d56db360c61dc"
+          }
+        },
+        {
+          "client_id": "52282453449-fuu4ba61m1opk5obe48g1khrip47l9v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9fXHdraX-zf9KHkOcsagExr2xURYnFAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52282453449-fuu4ba61m1opk5obe48g1khrip47l9v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/item_data_list"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="3dp"
+              android:orientation="vertical"
+              android:elevation="4dp"
+>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:elevation="20dp"
+            app:cardCornerRadius="3dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="#000000"
+                    android:id="@+id/item_data_list_title"
+                    android:layout_alignParentTop="true"
+                    android:textSize="25sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:id="@+id/item_data_list_category"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Publish Date: "
+                    android:id="@+id/item_data_list_publishdate_label"
+                    android:layout_below="@+id/item_data_list_category"
+                    android:layout_toLeftOf="@+id/item_data_list_publishdate"
+                    android:textSize="12sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Expiry Date :"
+                    android:id="@+id/item_data_list_expirydate_label"
+                    android:layout_below="@+id/item_data_list_publishdate"
+                    android:layout_toLeftOf="@id/item_data_list_expirydate"
+                    android:textSize="12sp" />
+
+
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="dd/mm/yyyy"
+                    android:id="@+id/item_data_list_publishdate"
+                    android:layout_below="@+id/item_data_list_category"
+                    android:layout_alignParentRight="true"
+                    android:textSize="12sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="dd/mm/yyyy"
+                    android:id="@+id/item_data_list_expirydate"
+                    android:layout_below="@+id/item_data_list_publishdate"
+                    android:layout_alignParentRight="true"
+                    android:textSize="12sp" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Short Description"
+                    android:textSize="15sp"
+                    android:id="@+id/item_data_list_title_shortdesc"
+                    android:layout_below="@+id/item_data_list_title"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="conatct no."
+                    android:textSize="12sp"
+                    android:id="@+id/item_data_list_title_longdesc"
+                    android:layout_below="@+id/item_data_list_title_shortdesc"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="comtact no."
+                    android:id="@+id/vft"
+                    android:background="@drawable/ic_call_black_24dp"
+                    android:layout_below="@+id/item_data_list_title_shortdesc"
+                    android:layout_alignParentRight="false"
+                    android:textSize="12sp" />
+
+
+            <View
+                    android:layout_margin="5dp"
+                    android:padding="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/line"
+                    android:layout_below="@+id/item_data_list_title_longdesc"
+                    android:background="#FF6D00"></View>
+
+            <ImageView
+                    android:id="@+id/item_data_list_edit"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/line"
+                    android:layout_marginTop="34dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_toLeftOf="@+id/item_data_list_delete"
+                    android:backgroundTint="@color/colorAccent"
+            />
+
+            <ImageView
+                    android:id="@+id/item_data_list_delete"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/line"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="34dp"
+                    android:layout_marginRight="12dp"
+                     />
+
+            <ImageView
+                    android:id="@+id/item_data_list_addimage"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/line"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_toLeftOf="@id/item_data_list_edit"
+            />
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="horizontal"
+                    android:layout_toLeftOf="@id/item_data_list_addimage">
+                <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/ic_photo_camera_black_24dp"
+                        android:layout_marginRight="5dp"
+
+                        android:id="@+id/item_data_list_image_1"/>
+                <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_photo_camera_black_24dp"
+                        android:layout_weight="1"
+                        android:id="@+id/item_data_list_image_2"
+                />
+                <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/ic_photo_camera_black_24dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:id="@+id/item_data_list_image_3"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
